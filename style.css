@@ -1,0 +1,92 @@
+/* Style sheet */
+
+
+* {
+    font-family: Roboto,sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 80px;
+
+}
+
+.header,
+.hero,
+.content,
+.cta-container,
+.footer,
+.quote-box {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+.logo
+{
+    display: flex;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+
+}
+
+.hero,
+.footer,
+.header {
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: extra-bold;
+    margin-bottom: 4px;
+}
+
+.hero-text,
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 80px;
+}
+
+.hero-image {
+    width: 500px;
+}
+
+#hero-button {
+    background-color: #3882f6;
+    padding: 4px 20px;
+    margin-top: 16px;;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    color: #f9faf8;
+    border: none;
+}
