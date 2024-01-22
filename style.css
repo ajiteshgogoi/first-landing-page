@@ -101,6 +101,7 @@ h2 {
     font-weight: extra-bold;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 
 }
 
@@ -132,4 +133,28 @@ h2 {
     width: 200px;
     text-align: center;
     margin-top: 8px;
+}
+
+.quote-box {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 20px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+   
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: bold;
 }
